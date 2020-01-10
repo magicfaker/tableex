@@ -365,22 +365,6 @@ export default {
         });
       });
     },
-    // init() {
-    //   getList({
-    //     nowPage: this.formInline.nowPage,
-    //     pageSize: 20
-    //   }).then(res => {
-    //     this.tableData = res.data.data || [];
-    //     this.loading = false;
-    //     if (this.tableData.length) {
-    //       this.costList = this.tableData[0].itemsMap;
-    //       this.subsidiaryList = this.tableData[0].subsidiaryMap;
-    //       this.materiaList = this.tableData[0].materiaMap;
-    //     }
-    //     this.total = res.data.totalCount;
-    //     this.formInline.pageSize = res.data.pageSize;
-    //   });
-    // },
     current_change: function(currentPage) {
       this.formInline.nowPage = currentPage;
       console.log(currentPage);
